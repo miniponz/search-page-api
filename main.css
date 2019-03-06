@@ -1,0 +1,17 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid black;
+    margin: 0px;
+}
+
+img {
+    width: 250px;
+}

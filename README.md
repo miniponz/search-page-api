@@ -16,9 +16,12 @@ Pick an API that:
 2. Accepts a search/query term
 3. Supports paging
 
-You will likely need to sign up for an API key.
+Setlist.fm API!
 
-Not sure? Two good sources for movies: https://www.themoviedb.org or https://www.omdbapi.com
+API URL: https://api.setlist.fm/docs/1.0/ui/swagger.json
+API Key: 3db2f63f-28e5-4d34-84f7-763e7c338be6
+I will need a header when I make request to the server thing.
+
 
 ## Pages
 

@@ -8,11 +8,12 @@ const username = 'read-4c64aafe518a851fe9f72f0fc442337b';
 const password = 'l13ub39WAF6WkObCfRJ4k9D450cdrAcMWlRWfjir';
 const url = 'https://cors-anywhere.herokuapp.com/https://api.ravelry.com/patterns/search.json?query=ding+dong';
 
+const auth = window.btoa(username + ':' + password);
+console.log(auth);
+
 fetch(url, {
     headers: {
-        Authorization: `Basic ${Buffer.from(username + ':' + password).toString(
-            'base64'
-        )}`,
+        Authorization: `Basic ${auth}`,
         Origin: null
     }
 })
